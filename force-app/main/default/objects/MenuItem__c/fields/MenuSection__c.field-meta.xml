@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MenuSection__c</fullName>
+    <description>Type of menu related to this item</description>
+    <label>Menu Section</label>
+    <referenceTo>Menu__c</referenceTo>
+    <relationshipLabel>Menu Items</relationshipLabel>
+    <relationshipName>MenuItems</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
